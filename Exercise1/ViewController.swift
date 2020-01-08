@@ -35,7 +35,7 @@ class ViewController: UIViewController {
                     if segue.identifier == "firstVC"
                     {
                         let segueDestination = segue.destination as! SecondViewController
-                        segueDestination.Timer2 = self.seconds
+                        segueDestination.timer2 = self.seconds
                     }
                     
             }

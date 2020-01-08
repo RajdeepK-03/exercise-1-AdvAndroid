@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDs-6a-XRj">
-                                <rect key="frame" x="115" y="158" width="184" height="102"/>
+                                <rect key="frame" x="86" y="158" width="242" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
                                 <nil key="textColor"/>
@@ -71,7 +71,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="0Uf-6d-O7V"/>
                     <connections>
-                        <outlet property="LabelSecond" destination="RQf-OH-80V" id="YU4-wO-jHk"/>
+                        <outlet property="timeLabel2" destination="RQf-OH-80V" id="klc-0I-a1p"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="secondVC" id="7gB-9Y-ehD"/>
                     </connections>
                 </viewController>

@@ -29,10 +29,8 @@ class SecondViewController: UIViewController {
         {
                     if segue.identifier == "secondVC"
                     {
-                       // print("My second Activity")
                         let segueDestination = segue.destination as! ViewController
                         segueDestination.seconds = self.timer2
-                        print(segueDestination.seconds)
                     }
                     
         }
